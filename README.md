@@ -12,6 +12,7 @@ Na criação dessa Pokedex foi bem legal ,pois botei em pratica ,meus conhecimen
  <li>React Js</li></li></li></li>
  <li>Html </li>
   <li>CSS </li>
+     <li>Axios </li>
  <li> PokeAPI:https://pokeapi.co/</li>
  
   
