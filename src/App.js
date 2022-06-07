@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import axios from "axios";
 
+
 const App = () => {
   const [pokemon, setPokemon] = useState("pikachu");
   const [pokemonData, setPokemonData] = useState([]);
@@ -79,23 +80,5 @@ const App = () => {
 };
 
 
+
 export default App;
-// const toArray = [];
-// try {
-//   const url = `https://pokeapi.co/api/v2/pokemon/${pokemon}`;
-//   const pokeDesc = `https://pokeapi.co/api/v2/ability/${pokemon}`;
-
-//   const resPokemon = await axios.get(url);
-//   const resPokemonEtc = await axios.get(pokeDesc);
-
-//   axios.all([resPokemon, resPokemonEtc]).then(
-//     axios.spread((...allData) => {
-//       console.log(allData);
-//     })
-//   );
-//   // console.log(res);
-//   toArray.push(res.data);
-//   setPokemonData(toArray);
-// } catch (e) {
-//   console.log(e);
-// }
